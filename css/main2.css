@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Londrina+Solid&display=swap');
+
+body{
+    background:url(/images/Background_Little_Nutty\ .jpg);
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    background-color: white
+    
+}
+/* Navigaiton Bar*/
+
+.navbar{
+    text-decoration: none;
+    background-color: white;
+    list-style: none;}
+    
+.primary-nav{
+    list-style: none;
+    
+}
+
+.logo-img{
+    size: 2cm;
+    float: left;
+    max-width: 20em;
+}
+.mobile-menu{
+    cursor: pointer;
+    max-width: 20em;
+    display: inline-block;
+    float: right;
+}
+.mobile-cta{
+    display: block;
+}
+.container{
+    display: grid;
+    text-align: center;
+    place-content: space-between;
+}
+.nav{
+    position: fixed;
+    width: auto;
+    right: 0%;
+    background-color: blanchedalmond;
+    height: 100vh;
+    display: none;
+}
+.hero{
+    text-align: center;
+    margin-left: auto;
+    justify-content: center;
+}
+.ul,.testimonials-section{
+    list-style-type: none;
+    margin-left: -3em;
+    background-color: blanchedalmond;
+
+}

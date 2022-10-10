@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Londrina+Solid&display=swap');
+
+body{
+    background:url(/images/Background_Little_Nutty\ .jpg);
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    background-color: white
+    
+}
+/* Navigation bar */
+
+.navbar{
+background-color:white ;
+} 
+.hero{
+text-align: center;
+}
+
+.pb-image{
+    max-width:100%;height:auto;
+}
+.container{
+    display:grid;
+    text-align: center;
+    place-content: space-between;
+}
+.logo-img{
+    float: left;
+}
+
+.nav{
+    display: none;
+    text-align: center;
+}
+
+/* Hamburguer menu */
+
+.mobile-menu{
+    cursor: pointer;
+    float: right;
+}
+.a{
+margin:auto;
+}
+.section{
+    list-style-type: none;
+}
+.mobile-cta{
+   display: inline-block
+}
+
+
+/* Headlines and piture*/
+.hero{
+    padding: .5em 3.2em;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.left-col{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    box-sizing: inherit;
+}
+.subhead{
+    text-transform: uppercase;
+    font-size: larger;
+    background-color: white;
+    border-radius: 5em;
+    padding: 0.5em;
+    text-align: center;
+   
+}
+.pb-image{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Testimony section */
+.testimonials-section{
+    list-style-type: none;
+    background-color: #ba6124;
+    color: white;
+    text-align: center;
+}
+
+.testimonials-section{
+    list-style-type: none;
+    background-color: #ba6124;
+    
+    padding: 5em 0.3em;
+    width: 80%;
+    margin: auto 3em auto;
+    border-radius: 1em;
+
+}
+img{
+    border: white;
+}
+ul{
+    list-style-type: none;
+    margin-left: -3em;
+
+}
+
+/* Contact session */
+.contact-section{
+    font-size: large
+}
+label{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input,textarea{
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+   
+}
+input[type="submit"] {
+    background-color: #ba6124;
+    color: white;
+    font-family: 'Londrina Solid', cursive;
+    border-color: #ba6124;
+    cursor: pointer;
+    
+}
+.contact-left{
+    padding: 3em 6em;
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
+
+/* Navigation bar that hides*/
+nav.menu-btn{
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0%;
+    top:0%;
+    background-color: #eaa45d;
+    height: 100vh;
+    margin-left: -1em;
+}
+.primary-nav{
+    margin-top: 3em;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.3em;
+    padding: 2em;
+    text-align: left;
+}
+
+.mobile-menu-exit{
+    float: right;
+    margin: 1em;
+    cursor: pointer;
+}
+
+    
